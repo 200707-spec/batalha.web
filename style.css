@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #002b50;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .tabuleiro {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .celula {
+    width: 50px;       /* LARGURA MAIOR */
+    height: 50px;      /* ALTURA MAIOR */
+    font-size: 24px;   /* ÍCONES MAIORES */
+    margin: 2px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .celula:hover {
+    background-color: #d0e6f5;
+    transform: scale(1.05);
+  }
+  
+  #status, #mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #34495e;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalha Naval</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Batalha Naval </h1>
+
+    <div class="controls">
+      <label for="dificuldade">Escolha a Dificuldade do jogo:</label>
+      <select id="dificuldade">
+        <option value="facil">Fácil</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+      </select>
+
+      <button onclick="iniciarJogo()">Iniciar Jogo</button>
+    </div>
+
+    <div id="tabuleiro" class="tabuleiro"></div>
+
+    <div id="status"></div>
+    <div id="mensagem"></div>
+  </div>
+
+  <script src="tabuleiro2.js"></script>
+</body>
+</html>
